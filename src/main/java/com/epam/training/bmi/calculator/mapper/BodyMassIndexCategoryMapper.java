@@ -11,7 +11,7 @@ import java.util.Map;
 
 /**
  * Maps a calculated body mass index for a BodyMassIndexCategory.
- * Created by tomi9 on 11/6/2017.
+ * @author Szabó Tamás
  */
 public class BodyMassIndexCategoryMapper {
 

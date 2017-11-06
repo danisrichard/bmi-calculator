@@ -13,7 +13,8 @@ import static org.mockito.MockitoAnnotations.initMocks;
 import static org.testng.Assert.assertEquals;
 
 /**
- * Created by tomi9 on 11/6/2017.
+ * Unit test for {@link BodyMassIndexCategoryMapper}.
+ * @author Szabó Tamás
  */
 public class BodyMassIndexCategoryMapperTest {
 
