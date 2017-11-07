@@ -41,6 +41,8 @@ public class BodyMassIndexCategoryMapper {
         return bodyMassIndex > range.getMinValue() && bodyMassIndex < range.getMaxValue();
     }
 
+    //tesztelésre van ez a annotáció?
+    
     @VisibleForTesting
     void setBodyMassIndexCalculator(BodyMassIndexCalculator bodyMassIndexCalculator) {
         this.bodyMassIndexCalculator = bodyMassIndexCalculator;
