@@ -25,6 +25,9 @@ public class BodyMassIndexCalculator {
     public double calculate(double height, double mass, UnitType unitType) {
         double bodyMassIndex = -1;
         if(validateParams(height, mass)) {
+            
+            //Comment
+            
             bodyMassIndex = unitType == UnitType.SI ? calculateIndex(height, mass)
                     : calculateUscBasedIndex(height, mass);
         }
